@@ -27,7 +27,7 @@
     "version": "1.0",
     'category': 'Hidden/Dependency',
     "depends": ["account_voucher"],
-    "author": "Agile Business Group",
+    "author": "Agile Business Group,Odoo Community Association (OCA)",
     "description": """
 In some countries, under certain conditions, companies can apply the cash basis.
 The cash basis means businesses may account for VAT as payment comes in from
@@ -45,6 +45,7 @@ This module gathers all the basic functionalities that allow to handle the
 cash basis.
     """,
     'website': 'http://www.agilebg.com',
+    'license': 'AGPL-3',
     'init_xml': [],
     'data': [
         'company_view.xml',
